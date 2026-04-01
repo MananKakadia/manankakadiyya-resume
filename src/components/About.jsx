@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Layout, Cpu, Server, CheckCircle2 } from 'lucide-react';
 
@@ -76,7 +77,7 @@ const statistics = [
                  {/* Internal Gradient Overlay */}
                  <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-card-bg)]/80 via-transparent to-transparent z-10"></div>
                  <img 
-                   src="public/self.jpeg" 
+                   src="/self.jpeg" 
                    alt="Developer Working" 
                    className="w-full aspect-[4/5] object-cover group-hover:scale-105 transition-transform duration-1000 grayscale-[20%] group-hover:grayscale-0"
                  />
