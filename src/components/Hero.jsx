@@ -51,7 +51,7 @@ const Hero = () => {
             
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-[var(--color-border)] relative z-10 shadow-[0_0_30px_rgba(100,27,48,0.3)] group-hover:border-primary/50 transition-colors duration-500">
               <img 
-                src="src/assets/IMG_4098.JPG" 
+                src="public/IMG_4098.JPG" 
                 alt="Developer Profile"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
@@ -101,7 +101,7 @@ const Hero = () => {
             
             {/* Secondary Button */}
             <a 
-              href="src/assets/MananKakadiya-Resume.pdf" 
+              href="public/MananKakadiya-Resume.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-10 py-4 rounded-full border border-[var(--color-border)] hover:bg-white/5 hover:border-white/30 transition-all duration-300 font-bold flex items-center justify-center text-white gap-3 group hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] hover:-translate-y-1 bg-[var(--color-card-bg)]/50 backdrop-blur-sm"
